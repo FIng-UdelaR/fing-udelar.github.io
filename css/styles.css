@@ -1,0 +1,96 @@
+html {
+  font-size: 16px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #1a3f97;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h1 {
+  color: #1a3f97;
+  text-shadow: 1px 1px #928f8f;
+}
+
+.subheader {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+.sidenav-trigger {
+  color: #7da3c8;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+.halfScreenHeight {
+  height: 50vh;
+  width: 100%;
+  display: table;
+}
+
+.halfScreenHeightInner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #7da3c8;
+}
+
+.btn-large {
+  background-color: #1a3f97;
+}
+
+.material-icons {
+  color: #7da3c8;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* texto subrayado, indicando presencia de tooltip */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  bottom: 100%;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.parallax {
+  overflow: hidden;
+}
