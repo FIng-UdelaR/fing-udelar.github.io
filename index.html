@@ -1,280 +1,442 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="icon" type="image/png" href="./resources/favicon.png" />
-    <title>FIng-UdelaR - Repositorios de FIng</title>
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="./css/materialize.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="white" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo"
-          ><img
-            src="./resources/logo.png"
-            height="50px"
-            style="vertical-align: middle; padding: 3px 0px 3px 0px"
-        /></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="https://github.com/FIng-UdelaR">Acceder</a></li>
-        </ul>
 
-        <ul id="nav-mobile" class="sidenav">
-          <li><a href="https://github.com/FIng-UdelaR">Acceder</a></li>
-        </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-      </div>
-    </nav>
+<head>
+  <link rel="icon" type="image/png" href="./resources/favicon.png" />
+  <title>FIng-UdelaR - Repositorios de FIng</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="./css/materialize.min.css" />
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-    <!-- Section 0 -->
-    <div id="index-banner" class="parallax-container halfScreenHeight">
-      <div class="section no-pad-bot halfScreenHeightInner">
-        <div class="container">
-          <br /><br />
-          <h1 class="header center text-lighten-2">Repositorios de FIng</h1>
-          <div class="row center">
-            <h5 class="subheader col s12 light">
-              FIng-UdelaR es una organización de Github para alojar repositorios
-              relacionados con Facultad de Ingeniería.
-            </h5>
-          </div>
-          <div class="row center">
-            <a
-              href="https://github.com/FIng-UdelaR"
-              id="download-button"
-              class="btn-large waves-effect waves-light lighten-1"
-              >Ir a la Organización</a
-            >
-          </div>
-          <br /><br />
-        </div>
-      </div>
-      <div class="parallax">
-        <img
-          src="./resources/background1.jpg"
-          alt="Unsplashed background img 1"
-        />
-      </div>
+<body>
+  <!-- Navbar -->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="./resources/logo.png" height="50px"
+          style="vertical-align: middle; padding: 3px 0px 3px 0px" /></a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#faq">Preguntas frecuentes</a>
+        </li>
+        <li><a href="https://github.com/FIng-UdelaR">Acceder</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li>
+          <a href="#faq">Preguntas frecuentes</a>
+        </li>
+        <li><a href="https://github.com/FIng-UdelaR">Acceder</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
+  </nav>
 
-    <!-- Section 1 -->
-    <div class="container halfScreenHeight">
-      <div class="section halfScreenHeightInner">
-        <!--   Icon Section   -->
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center">
-                <i class="material-icons">flash_on</i>
-              </h2>
-              <h5 class="center">No te tranques más</h5>
-              <p class="light center">
-                Apóyate en trabajos de años anteriores que hayan realizado otros
-                estudiantes para desarrollar ágilmente las tareas de diferentes
-                materias de Facultad.
-              </p>
-              <p class="light center">
-                Crea repositorios privados dentro de la organización para que
-                luego puedan quedar como legado y así poder ayudar a futuras
-                generaciones de estudiantes
-              </p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center">
-                <i class="material-icons">group</i>
-              </h2>
-              <h5 class="center">100% colaborativo</h5>
-              <p class="light center">¡Intercambios de ida y vuelta!</p>
-              <p class="light center">
-                Obtén ayuda basándote en los trabajos que ya están disponibles
-                en los diferentes repositorios de FIng-UdelaR y ofrece ayuda a
-                los demás disponibilizando tus trabajos en nuevos repositorios
-                privados.
-              </p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center">
-                <i class="material-icons">settings</i>
-              </h2>
-              <h5 class="center">Súper personalizable</h5>
-              <p class="light center">
-                Una organización, muchos repositorios, varios equipos. En
-                FIng-UdelaR puedes crear nuevos equipos de trabajo (por materia,
-                por grupo de trabajo, etc.) o formar parte de grupos existentes,
-                puedes generar repositorios privados ilimitados, invitar nuevos
-                miembros y mucho más.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Section 2 -->
-    <div class="parallax-container valign-wrapper halfScreenHeight">
-      <div class="section no-pad-bot halfScreenHeightInner">
-        <div class="container">
-          <div class="row center">
-            <h5 class="subheader col s12 light">
-              “Lo más hermoso del trabajo en equipo es que siempre tienes a
-              otros de tu lado"
-            </h5>
-            <small class="subheader">-Margaret Carty-</small>
-          </div>
-        </div>
-      </div>
-      <div class="parallax">
-        <img
-          src="./resources/background2.jpg"
-          alt="Unsplashed background img 2"
-        />
-      </div>
-    </div>
-
-    <!-- Section 3 -->
-    <div class="container halfScreenHeight">
-      <div class="section halfScreenHeightInner">
-        <div class="row">
-          <div class="col s12 center">
-            <h3><i class="mdi-content-send brown-text"></i></h3>
-            <h4>Conviértete en miembro</h4>
-            <p class="light">
-              ¡Si estudias en Facultad de Ingeniería y quieres obtener acceso a
-              todos los respositorios que actualmente se encuentran disponibles
-              dentro de esta "organización" o si tienes proyectos que te
-              gustaría poner a disposición de otros estudiantes, entonces puedes
-              solicitar que se te agregue a la lista de miembros de FIng-UdelaR
-              en Github!
-            </p>
-            <p class="light">
-              Si conoces a algún usuario de Github que ya sea miembro de
-              Fing-UdelaR, puedes solicitarle que te invite directamente. En
-              caso contrario, puedes
-              <a
-                class="tooltip"
-                href="mailto:santiago.chiappa@gmail.com?subject=Quiero%20formar%20parte%20de%20FIng-UdelaR%20en%20Github&body=Quiero%20convertirme%20en%20miembro%20de%20FIng-UdelaR%20en%20Github.%20Mi%20nombre%20de%20usuario%20es%20(...)"
-                ><span class="tooltiptext"
-                  >Envia un correo a santiago.chiappa@gmail.com</span
-                >realizar la solicitud vía email</a
-              >
-              (recuerda especificar tu nombre de usuario de Github para que
-              podamos hacerte llegar la invitación).
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Section 4 -->
-    <div class="parallax-container valign-wrapper halfScreenHeight">
-      <div class="section no-pad-bot halfScreenHeightInner">
-        <div class="container">
-          <div class="row center">
-            <h5 class="subheader col s12 light">
-              “No puede impedirse el viento, pero hay que saber construir
-              molinos”
-            </h5>
-            <small class="subheader">-Proverbio holandés-</small>
-          </div>
-        </div>
-      </div>
-      <div class="parallax">
-        <img
-          src="resources/background3.jpg"
-          alt="Unsplashed background img 3"
-        />
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="page-footer">
+  <!-- Section 0 -->
+  <div id="index-banner" class="parallax-container halfScreenHeight">
+    <div class="section no-pad-bot halfScreenHeightInner">
       <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Acerca de</h5>
-            <p class="grey-text text-lighten-4">
-              La organización "FIng-UdelaR" de Github agrupa estudiantes y
-              egresados de las carreras de Facultad de Ingeniería y proporciona
-              una serie de repositorios con trabajos de diferentes materias.
-              <br />
-              Permite crear nuevos equipos de trabajo públicos, privados y
-              secretos, o formar parte de equipos existentes. <br />
-              Además, ofrece la posibilidad de crear repositorios públicos o
-              privados ilimitados.
+        <br /><br />
+        <h1 class="header center text-lighten-2">Repositorios de FIng</h1>
+        <div class="row center">
+          <h5 class="subheader col s12 light">
+            FIng-UdelaR es una organización de Github para alojar repositorios
+            relacionados con Facultad de Ingeniería.
+          </h5>
+        </div>
+        <div class="row center">
+          <a href="https://github.com/FIng-UdelaR" id="download-button"
+            class="btn-large waves-effect waves-light lighten-1">Ir a la Organización</a>
+        </div>
+        <br /><br />
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="./resources/background1.jpg" alt="Unsplashed background img 1" />
+    </div>
+  </div>
+
+  <!-- Section 1 -->
+  <div class="container halfScreenHeight">
+    <div class="section halfScreenHeightInner">
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center">
+              <i class="material-icons">flash_on</i>
+            </h2>
+            <h5 class="center">No te tranques más</h5>
+            <p class="light center">
+              Apóyate en trabajos de años anteriores que hayan realizado otros
+              estudiantes para desarrollar ágilmente las tareas de diferentes
+              materias de Facultad.
+            </p>
+            <p class="light center">
+              Crea repositorios privados dentro de la organización para que
+              luego puedan quedar como legado y así poder ayudar a futuras
+              generaciones de estudiantes
             </p>
           </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Enlaces útiles</h5>
-            <ul>
-              <li>
-                <a
-                  class="white-text"
-                  href="https://www.fing.edu.uy/"
-                  target="_blank"
-                  >Facultad de Ingeniería</a
-                >
-              </li>
-              <li>
-                <a
-                  class="white-text"
-                  href="https://eva.fing.edu.uy/"
-                  target="_blank"
-                  >EVA FIng</a
-                >
-              </li>
-              <li>
-                <a
-                  class="white-text"
-                  href="http://www.bedelias.edu.uy/"
-                  target="_blank"
-                  >Bedelías</a
-                >
-              </li>
-              <li>
-                <a class="white-text" href="https://github.com/FIng-UdelaR"
-                  >FIng-UdelaR en Github</a
-                >
-              </li>
-            </ul>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center">
+              <i class="material-icons">group</i>
+            </h2>
+            <h5 class="center">100% colaborativo</h5>
+            <p class="light center">¡Intercambios de ida y vuelta!</p>
+            <p class="light center">
+              Obtén ayuda basándote en los trabajos que ya están disponibles
+              en los diferentes repositorios de FIng-UdelaR y ofrece ayuda a
+              los demás disponibilizando tus trabajos en nuevos repositorios
+              privados.
+            </p>
           </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Características</h5>
-            <ul>
-              <li>&#10004; Repositorios públicos y privados</li>
-              <li>&#10004; Equipos de trabajo</li>
-              <li>&#10004; Trabajos de años anteriores</li>
-              <li>&#10004; Comunidad de estudiantes y egresados</li>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center">
+              <i class="material-icons">settings</i>
+            </h2>
+            <h5 class="center">Súper personalizable</h5>
+            <p class="light center">
+              Una organización, muchos repositorios, varios equipos. En
+              FIng-UdelaR puedes crear nuevos equipos de trabajo (por materia,
+              por grupo de trabajo, etc.) o formar parte de grupos existentes,
+              puedes generar repositorios privados ilimitados, invitar nuevos
+              miembros y mucho más.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section 2 -->
+  <div class="parallax-container valign-wrapper halfScreenHeight">
+    <div class="section no-pad-bot halfScreenHeightInner">
+      <div class="container">
+        <div class="row center">
+          <h5 class="subheader col s12 light">
+            “Lo más hermoso del trabajo en equipo es que siempre tienes a
+            otros de tu lado"
+          </h5>
+          <small class="subheader">-Margaret Carty-</small>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="./resources/background2.jpg" alt="Unsplashed background img 2" />
+    </div>
+  </div>
+
+  <!-- Section 3 -->
+  <div class="container halfScreenHeight">
+    <div class="section halfScreenHeightInner">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Conviértete en miembro</h4>
+          <p class="light">
+            ¡Si estudias en Facultad de Ingeniería y quieres obtener acceso a
+            todos los respositorios que actualmente se encuentran disponibles
+            dentro de esta "organización" o si tienes proyectos que te
+            gustaría poner a disposición de otros estudiantes, entonces puedes
+            solicitar que se te agregue a la lista de miembros de FIng-UdelaR
+            en Github!
+          </p>
+          <p class="light">
+            Si conoces a algún usuario de Github que ya sea miembro de
+            Fing-UdelaR, puedes solicitarle que te invite directamente. En
+            caso contrario, puedes
+            <a class="tooltip"
+              href="mailto:santiago.chiappa@gmail.com?subject=Quiero%20formar%20parte%20de%20FIng-UdelaR%20en%20Github&body=Quiero%20convertirme%20en%20miembro%20de%20FIng-UdelaR%20en%20Github.%20Mi%20nombre%20de%20usuario%20es%20(...)"><span
+                class="tooltiptext">Envia un correo a santiago.chiappa@gmail.com</span>realizar la solicitud vía
+              email</a>
+            (recuerda especificar tu nombre de usuario de Github para que
+            podamos hacerte llegar la invitación).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 4 -->
+  <div class="parallax-container valign-wrapper halfScreenHeight">
+    <div class="section no-pad-bot halfScreenHeightInner">
+      <div class="container">
+        <div class="row center">
+          <h5 class="subheader col s12 light">
+            “No puede impedirse el viento, pero hay que saber construir
+            molinos”
+          </h5>
+          <small class="subheader">-Proverbio holandés-</small>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="resources/background3.jpg" alt="Unsplashed background img 3" />
+    </div>
+  </div>
+
+  <!-- Section 5 -->
+  <div class="container halfScreenHeight" id="faq">
+    <div class="section halfScreenHeightInner">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Preguntas frecuentes</h4>
+          <div>
+            <ul class="collapsible popout">
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">question_answer</i>¿Qué es
+                  exactamente FIng-UdelaR?
+                </div>
+                <div class="collapsible-body">
+                  <span><a class="tooltip" href="https://github.com/FIng-UdelaR" target="_blank"><span
+                        class="tooltiptext">Clic para mostrar la organización en una nueva
+                        pestaña</span>FIng-UdelaR</a>
+                    es una organización de Github que agrupa una serie de
+                    repositorios vinculados con Ingeniería (en particular,
+                    computación/informática/sistemas). <br />La idea es
+                    agrupar repositorios de diferentes materias de facultad o
+                    de temas relacionados con Ingeniería para compartir con la
+                    comunidad de estudiantes, egresados y demás interesados.
+                    <br />El objetivo de esto es generar una comunidad de
+                    ayuda mutua: compartes tus trabajos y conocimientos a la
+                    vez que te nutres del trabajo y conocimientos de otras
+                    personas.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">question_answer</i>¿Puedo unirme a
+                  FIng-UdelaR?
+                </div>
+                <div class="collapsible-body">
+                  <span>¡Por supuesto! Si te interesa la ingeniería, sin importar
+                    tu nivel y tus conocimientos, seguro disfrutarás siendo
+                    parte de FIng-UdelaR en Github.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">question_answer</i>¿Cómo hago para
+                  unirme a FIng-UdelaR?
+                </div>
+                <div class="collapsible-body">
+                  <span>Como Github aún no permite crear organizaciones abiertas,
+                    para ingresar a FIng-UdelaR deberás <b>recibir una
+                    invitación</b>.<br />Si conoces a alguien que ya sea miembro
+                    de FIng-UdelaR, puedes solicitarle que te invite
+                    utilizando la aplicación que hemos desarrollado y puesto a
+                    disposición de todos los miembros (ver pregunta frecuente
+                    siguiente).<br />Si aún no conoces a ningún miembro,
+                    puedes solicitar el ingreso enviando un email a la
+                    dirección de correo que se indica en la página de la
+                    organización (¡no olvides especificar cuál es tu nombre de
+                    usuario en Github!).
+                  </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">question_answer</i>Soy miembro de
+                  FIng-UdelaR, ¿cómo puedo invitar a alguien más?
+                </div>
+                <div class="collapsible-body">
+                  <span>Como Github aún no permite que cualquier usuario pueda
+                    realizar invitaciones para una organización, decidimos
+                    desarrollar una herramienta que sí lo permite.<br>¡Utiliza el
+                    <a class="modal-trigger" href="#modal1">generador de invitaciones</a>
+                    para enviar todas las invitaciones que quieras!
+                  </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">question_answer</i>¿Cómo comparto
+                  un repositorio con FIng-UdelaR?
+                </div>
+                <div class="collapsible-body">
+                  <p>Si tienes un repositorio que quieras disponibilizar para
+                    los miembros de FIng-UdelaR, debes seguir los siguientes pasos</p>
+                  <p>
+                  <ul>
+                    <li>1. Asegúrate de <b>ser miembro</b> de FIng-UdelaR en Github</li>
+                    <li>2. Asegúrate de que el nombre del repositorio sea descriptivo (que tenga un nombre como
+                      Materia-Año-Descripción). Si no lo es, accede a la configuración del repositorio que quieres
+                      compartir y renombra el repositorio <a href="javascript:renameRepository()">(ver imagen)</a>.</li>
+                    <li>3. Dentro de las opciones que se encuentran en la configuración del respositorio, haz clic en el
+                      botón de <b>transferir repositorio</b> y envíalo a la organización FIng-UdelaR. <a
+                        href="javascript:shareRepositoryWithOrg()">(ver imagen)</a>.</li>
+                    <li>4. ¡Listo! Sigues siendo dueño del repositorio pero éste se encuentra ahora dentro de la
+                      organización FIng-UdelaR, para que sea visible por los demás miembros (ver detalle en la pregunta
+                      frecuente que sigue).</li>
+                  </ul>
+                  </p>
+                  <p>Adicionalmente, puedes crear repositorios (públicos o privados) directamente en FIng-UdelaR
+                    y subir los proyectos directamente.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">question_answer</i>¿Qué pasa con
+                  mis repositorios cuando los transfiero a FIng-UdelaR?
+                </div>
+                <div class="collapsible-body">
+                  <p>Cuando transfieres un repositorio a FIng-UdelaR, este queda visible para todos los miembros de
+                    la organización. Todos los usuarios que hayan participado en el repositorio antes de que fuese 
+                    transferido a FIng-UdelaR mantendrán sus privilegios como colaboradores. Adicionalmente, 
+                    los colaboradores que aún no sean miembros de FIng-UdelaR, tendrán la posibilidad de unirse a 
+                    la organización si así lo desean.</p>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">question_answer</i>¿Puedo crear repositorios directamente en la
+                  organización?
+                </div>
+                <div class="collapsible-body">
+                  <p>¡Sí! Puedes crear tantos repositorios (públicos o privados) como quieras dentro de la
+                    organización. </p>
+                  <p>Además, puedes transferir a FIng-UdelaR repositorios de tu cuenta personal y continuar trabajando en
+                    ellos junto con tus colaboradores (nadie con acceso previo al repositorio pierde visibilidad sobre
+                    él, por lo que es seguro transferir repositorios a FIng-UdelaR).
+                  </p>
+                  <p>¡Utiliza FIng-UdelaR para comaprtir tus proyectos y para acceder a proyectos compartidos por 
+                    otras personas!</p>
+                </div>
+              </li>
+
+                <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">question_answer</i>Tengo otra pregunta que no está respondida aquí
+                </div>
+                <div class="collapsible-body">
+                  <p>¡Si tienes dudas, consultas o comentarios, no dudes en contactarte via email! Escribe un 
+                    correo a la dirección que se encuentra <a class="tooltip" 
+                    href="https://github.com/FIng-UdelaR" target="_blank"><span
+                        class="tooltiptext">Se abre en una nueva pestaña</span>aquí</a></p>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          Hecho por
-          <a
-            class="text-lighten-3 brand-logo"
-            href="https://github.com/schiappa"
-            target="_blank"
-            >schiappa</a
-          >
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Acerca de</h5>
+          <p class="grey-text text-lighten-4">
+            La organización "FIng-UdelaR" de Github agrupa estudiantes y
+            egresados de las carreras de Facultad de Ingeniería y proporciona
+            una serie de repositorios con trabajos de diferentes materias.
+            <br />
+            Permite crear nuevos equipos de trabajo públicos, privados y
+            secretos, o formar parte de equipos existentes. <br />
+            Además, ofrece la posibilidad de crear repositorios públicos o
+            privados ilimitados.
+          </p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Enlaces útiles</h5>
+          <ul>
+            <li>
+              <a class="white-text" href="https://www.fing.edu.uy/" target="_blank">Facultad de Ingeniería</a>
+            </li>
+            <li>
+              <a class="white-text" href="https://eva.fing.edu.uy/" target="_blank">EVA FIng</a>
+            </li>
+            <li>
+              <a class="white-text" href="http://www.bedelias.edu.uy/" target="_blank">Bedelías</a>
+            </li>
+            <li>
+              <a class="white-text" href="https://github.com/FIng-UdelaR">FIng-UdelaR en Github</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Características</h5>
+          <ul>
+            <li>&#10004; Repositorios públicos y privados</li>
+            <li>&#10004; Equipos de trabajo</li>
+            <li>&#10004; Trabajos de años anteriores</li>
+            <li>&#10004; Comunidad de estudiantes y egresados</li>
+          </ul>
         </div>
       </div>
-    </footer>
-  </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="./js/materialize.min.js"></script>
-  <script src="./js/scripts.js"></script>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Hecho por
+        <a class="text-lighten-3 brand-logo" href="https://github.com/schiappa" target="_blank">schiappa</a>
+        <span class="right" id="date">asd</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4 id="modalTitle">Herramientas</h4>
+      <div id="modalBody">
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="resources/invitation-tool.png" alt="Generador de invitaciones" class="circle" />
+            <b class="title">Generador de invitaciones para FIng-UdelaR</b>
+            <p>
+              Antes de acceder a esta herramienta, asegúrate de haber iniciado
+              sesión con un usuario de Github que pertenezca a la organización
+              FIng-UdelaR<br />
+            <ul>
+              <li><span class="material-icons">subdirectory_arrow_right</span><a
+                  href="https://github.com/FIng-UdelaR/Herramientas" target="_blank">Acceder a la herramienta</a></li>
+              <li><span class="material-icons">subdirectory_arrow_right</span><a
+                  href="javascript:inviteGenerator();">Expandir imagen y descripción</a></li>
+            </ul>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal-footer" id="modalFooter"></div>
+  </div>
+
+
+  <div id="modalImage" class="modal">
+    <div class="modal-content">
+      <h4 id="imageTitle">Modal Header</h4>
+      <div class="row">
+        <div class="col s12 l6">
+          <img style="max-width: 100%;" id="imageSource" src="">
+        </div>
+        <div class="col s12 l6" id="imageCardBody">
+          <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./js/materialize.min.js"></script>
+<script src="./js/scripts.js"></script>
+
 </html>
